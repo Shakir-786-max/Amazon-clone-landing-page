@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color:#0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1px  solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.add-1st {
+    color: aqua;
+    font-size: 0.85em;
+    margin-left: 15px;
+}
+.add-2nd {
+    color:aliceblue;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    text-align: center;
+}
+
+/* box 3 search icon */
+
+.nav-search{
+    display: flex;
+    background-color:tan;
+    width: 620px;
+    height: 40px;
+    border-radius: 2px;
+    justify-content: space-evenly;
+}
+
+.select-search{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1em;
+    border: none;
+    border: 2px solid yellow;
+
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: black;
+
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/* box 4 */
+
+span {
+    font-size: 12px;
+    
+}
+
+.nav-second {
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+/* box 6 */
+
+.nav-cart i {
+font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 14px;
+    font-weight: 700px;
+}
+
+.panel {
+    display: flex;
+    width: 100%;
+    height: 35px;
+     align-items: center;
+     justify-content: space-evenly;
+     background: #222f32;
+     color: white;
+     
+}
+
+.panel-opt {
+    width: 70%;
+    font-size: 0.85em;
+}
+.panel-opt a:hover{
+    border:2px solid black;
+}
+
+.panel-opt a {
+    color: white;
+    margin-left: 15px;
+}
+.panel-deals{
+    font-size: 0.9em;
+    font-weight: 700px;
+}
+
+
+/* Hero section */
+
+.hero-section {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+
+.hero-mesege {
+    background-color: #f3f3f3;
+    height: 35px;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+   
+    }
